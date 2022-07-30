@@ -12,7 +12,7 @@ from kivy.uix.textinput import TextInput
 
 def run_legendary():
     # Temporary: in reality the file should be places in the same dir as the legendary executable file
-    os.chdir('/Applications')
+    #os.chdir('/Applications')
     if os.path.exists("legendary"):
         MainView().run()
     else:
